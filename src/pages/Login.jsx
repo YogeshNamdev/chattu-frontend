@@ -86,6 +86,7 @@ const Login = () => {
     const config = {
       withCredentials: true,
       headers: {
+        'access-control-allow-origin': '*',
         'Content-Type': 'multipart/form-data',
       },
     }
